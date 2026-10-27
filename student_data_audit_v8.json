@@ -1,0 +1,135 @@
+{
+  "source_file": "الكنترول المدرسي المبسط1.xlsb",
+  "read_only": true,
+  "limitation": "pyxlsb reads cached cell values only; formulas and VBA are not evaluated.",
+  "sheets": [
+    {
+      "sheet": "F",
+      "candidate_ranges": [
+        [
+          6,
+          205
+        ],
+        [
+          207,
+          396
+        ],
+        [
+          406,
+          605
+        ],
+        [
+          607,
+          796
+        ],
+        [
+          806,
+          1005
+        ],
+        [
+          1007,
+          1196
+        ]
+      ],
+      "seat_column": 2,
+      "name_column": 3,
+      "rows_with_identity_value": 0,
+      "sample": []
+    },
+    {
+      "sheet": "S",
+      "candidate_ranges": [
+        [
+          6,
+          396
+        ],
+        [
+          5006,
+          5396
+        ],
+        [
+          5406,
+          5796
+        ]
+      ],
+      "seat_column": 2,
+      "name_column": 3,
+      "rows_with_identity_value": 0,
+      "sample": []
+    },
+    {
+      "sheet": "namesstu",
+      "identity_groups": [
+        {
+          "seat_column": 3,
+          "name_column": 4,
+          "rows_with_identity_value": 0,
+          "sample": []
+        },
+        {
+          "seat_column": 39,
+          "name_column": 40,
+          "rows_with_identity_value": 0,
+          "sample": []
+        },
+        {
+          "seat_column": 55,
+          "name_column": 56,
+          "rows_with_identity_value": 49,
+          "sample": [
+            {
+              "row": 6,
+              "seat": 501.0,
+              "name": null
+            },
+            {
+              "row": 7,
+              "seat": 502.0,
+              "name": null
+            },
+            {
+              "row": 8,
+              "seat": 518.0,
+              "name": null
+            },
+            {
+              "row": 9,
+              "seat": 519.0,
+              "name": null
+            },
+            {
+              "row": 10,
+              "seat": 520.0,
+              "name": null
+            },
+            {
+              "row": 11,
+              "seat": 521.0,
+              "name": null
+            },
+            {
+              "row": 12,
+              "seat": 513.0,
+              "name": null
+            },
+            {
+              "row": 13,
+              "seat": 542.0,
+              "name": null
+            },
+            {
+              "row": 14,
+              "seat": 547.0,
+              "name": null
+            },
+            {
+              "row": 15,
+              "seat": 511.0,
+              "name": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

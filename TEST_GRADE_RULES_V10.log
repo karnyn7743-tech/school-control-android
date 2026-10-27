@@ -1,0 +1,561 @@
+PASS: second-cell marker fails subject despite total >=50
+PASS: fourth-cell marker means absent
+PASS: fourth-cell marker has priority within the same subject
+PASS: extract four grades from each five-column block
+PASS: fourth-cell absence globally overrides second-cell fail
+PASS: second cell is checked in later subject
+PASS: missing student remains blank
+PASS: all applicable subjects pass
+PASS: 12-subject second-cell map is complete
+PASS: 12-subject fourth-cell map includes AP and BE
+PASS: 9-subject second-cell map is complete
+PASS: 9-subject fourth-cell map is complete
+PASS: column mapping works beyond Z
+PASS: sheet F sums eight subject totals and ignores unassigned blanks
+PASS: sheet F returns blank when all eight subject totals are blank
+PASS: sheet F preserves a real zero total
+PASS: sheet F uses exactly the eight source total columns H,M,R,W,AB,AG,AL,AQ
+PASS: sheet F column H contributes to final total
+PASS: sheet F column M contributes to final total
+PASS: sheet F column R contributes to final total
+PASS: sheet F column W contributes to final total
+PASS: sheet F column AB contributes to final total
+PASS: sheet F column AG contributes to final total
+PASS: sheet F column AL contributes to final total
+PASS: sheet F column AQ contributes to final total
+PASS: sheet F ignores blanks before, between and after assigned subjects
+PASS: sheet F rejects totals list with wrong subject count
+PASS: 12-subject second-cell position 1 => overall fail
+PASS: 12-subject second-cell position 2 => overall fail
+PASS: 12-subject second-cell position 3 => overall fail
+PASS: 12-subject second-cell position 4 => overall fail
+PASS: 12-subject second-cell position 5 => overall fail
+PASS: 12-subject second-cell position 6 => overall fail
+PASS: 12-subject second-cell position 7 => overall fail
+PASS: 12-subject second-cell position 8 => overall fail
+PASS: 12-subject second-cell position 9 => overall fail
+PASS: 12-subject second-cell position 10 => overall fail
+PASS: 12-subject second-cell position 11 => overall fail
+PASS: 12-subject second-cell position 12 => overall fail
+PASS: 12-subject fourth-cell position 1 => overall absent
+PASS: 12-subject fourth-cell position 2 => overall absent
+PASS: 12-subject fourth-cell position 3 => overall absent
+PASS: 12-subject fourth-cell position 4 => overall absent
+PASS: 12-subject fourth-cell position 5 => overall absent
+PASS: 12-subject fourth-cell position 6 => overall absent
+PASS: 12-subject fourth-cell position 7 => overall absent
+PASS: 12-subject fourth-cell position 8 => overall absent
+PASS: 12-subject fourth-cell position 9 => overall absent
+PASS: 12-subject fourth-cell position 10 => overall absent
+PASS: 12-subject fourth-cell position 11 => overall absent
+PASS: 12-subject fourth-cell position 12 => overall absent
+PASS: priority: second=1, fourth=1
+PASS: priority: second=1, fourth=2
+PASS: priority: second=1, fourth=3
+PASS: priority: second=1, fourth=4
+PASS: priority: second=1, fourth=5
+PASS: priority: second=1, fourth=6
+PASS: priority: second=1, fourth=7
+PASS: priority: second=1, fourth=8
+PASS: priority: second=1, fourth=9
+PASS: priority: second=1, fourth=10
+PASS: priority: second=1, fourth=11
+PASS: priority: second=1, fourth=12
+PASS: priority: second=2, fourth=1
+PASS: priority: second=2, fourth=2
+PASS: priority: second=2, fourth=3
+PASS: priority: second=2, fourth=4
+PASS: priority: second=2, fourth=5
+PASS: priority: second=2, fourth=6
+PASS: priority: second=2, fourth=7
+PASS: priority: second=2, fourth=8
+PASS: priority: second=2, fourth=9
+PASS: priority: second=2, fourth=10
+PASS: priority: second=2, fourth=11
+PASS: priority: second=2, fourth=12
+PASS: priority: second=3, fourth=1
+PASS: priority: second=3, fourth=2
+PASS: priority: second=3, fourth=3
+PASS: priority: second=3, fourth=4
+PASS: priority: second=3, fourth=5
+PASS: priority: second=3, fourth=6
+PASS: priority: second=3, fourth=7
+PASS: priority: second=3, fourth=8
+PASS: priority: second=3, fourth=9
+PASS: priority: second=3, fourth=10
+PASS: priority: second=3, fourth=11
+PASS: priority: second=3, fourth=12
+PASS: priority: second=4, fourth=1
+PASS: priority: second=4, fourth=2
+PASS: priority: second=4, fourth=3
+PASS: priority: second=4, fourth=4
+PASS: priority: second=4, fourth=5
+PASS: priority: second=4, fourth=6
+PASS: priority: second=4, fourth=7
+PASS: priority: second=4, fourth=8
+PASS: priority: second=4, fourth=9
+PASS: priority: second=4, fourth=10
+PASS: priority: second=4, fourth=11
+PASS: priority: second=4, fourth=12
+PASS: priority: second=5, fourth=1
+PASS: priority: second=5, fourth=2
+PASS: priority: second=5, fourth=3
+PASS: priority: second=5, fourth=4
+PASS: priority: second=5, fourth=5
+PASS: priority: second=5, fourth=6
+PASS: priority: second=5, fourth=7
+PASS: priority: second=5, fourth=8
+PASS: priority: second=5, fourth=9
+PASS: priority: second=5, fourth=10
+PASS: priority: second=5, fourth=11
+PASS: priority: second=5, fourth=12
+PASS: priority: second=6, fourth=1
+PASS: priority: second=6, fourth=2
+PASS: priority: second=6, fourth=3
+PASS: priority: second=6, fourth=4
+PASS: priority: second=6, fourth=5
+PASS: priority: second=6, fourth=6
+PASS: priority: second=6, fourth=7
+PASS: priority: second=6, fourth=8
+PASS: priority: second=6, fourth=9
+PASS: priority: second=6, fourth=10
+PASS: priority: second=6, fourth=11
+PASS: priority: second=6, fourth=12
+PASS: priority: second=7, fourth=1
+PASS: priority: second=7, fourth=2
+PASS: priority: second=7, fourth=3
+PASS: priority: second=7, fourth=4
+PASS: priority: second=7, fourth=5
+PASS: priority: second=7, fourth=6
+PASS: priority: second=7, fourth=7
+PASS: priority: second=7, fourth=8
+PASS: priority: second=7, fourth=9
+PASS: priority: second=7, fourth=10
+PASS: priority: second=7, fourth=11
+PASS: priority: second=7, fourth=12
+PASS: priority: second=8, fourth=1
+PASS: priority: second=8, fourth=2
+PASS: priority: second=8, fourth=3
+PASS: priority: second=8, fourth=4
+PASS: priority: second=8, fourth=5
+PASS: priority: second=8, fourth=6
+PASS: priority: second=8, fourth=7
+PASS: priority: second=8, fourth=8
+PASS: priority: second=8, fourth=9
+PASS: priority: second=8, fourth=10
+PASS: priority: second=8, fourth=11
+PASS: priority: second=8, fourth=12
+PASS: priority: second=9, fourth=1
+PASS: priority: second=9, fourth=2
+PASS: priority: second=9, fourth=3
+PASS: priority: second=9, fourth=4
+PASS: priority: second=9, fourth=5
+PASS: priority: second=9, fourth=6
+PASS: priority: second=9, fourth=7
+PASS: priority: second=9, fourth=8
+PASS: priority: second=9, fourth=9
+PASS: priority: second=9, fourth=10
+PASS: priority: second=9, fourth=11
+PASS: priority: second=9, fourth=12
+PASS: priority: second=10, fourth=1
+PASS: priority: second=10, fourth=2
+PASS: priority: second=10, fourth=3
+PASS: priority: second=10, fourth=4
+PASS: priority: second=10, fourth=5
+PASS: priority: second=10, fourth=6
+PASS: priority: second=10, fourth=7
+PASS: priority: second=10, fourth=8
+PASS: priority: second=10, fourth=9
+PASS: priority: second=10, fourth=10
+PASS: priority: second=10, fourth=11
+PASS: priority: second=10, fourth=12
+PASS: priority: second=11, fourth=1
+PASS: priority: second=11, fourth=2
+PASS: priority: second=11, fourth=3
+PASS: priority: second=11, fourth=4
+PASS: priority: second=11, fourth=5
+PASS: priority: second=11, fourth=6
+PASS: priority: second=11, fourth=7
+PASS: priority: second=11, fourth=8
+PASS: priority: second=11, fourth=9
+PASS: priority: second=11, fourth=10
+PASS: priority: second=11, fourth=11
+PASS: priority: second=11, fourth=12
+PASS: priority: second=12, fourth=1
+PASS: priority: second=12, fourth=2
+PASS: priority: second=12, fourth=3
+PASS: priority: second=12, fourth=4
+PASS: priority: second=12, fourth=5
+PASS: priority: second=12, fourth=6
+PASS: priority: second=12, fourth=7
+PASS: priority: second=12, fourth=8
+PASS: priority: second=12, fourth=9
+PASS: priority: second=12, fourth=10
+PASS: priority: second=12, fourth=11
+PASS: priority: second=12, fourth=12
+PASS: 8-subject second-cell map is complete
+PASS: 8-subject fourth-cell map is complete
+PASS: 8-subject second-cell position 1 => overall fail
+PASS: 8-subject second-cell position 2 => overall fail
+PASS: 8-subject second-cell position 3 => overall fail
+PASS: 8-subject second-cell position 4 => overall fail
+PASS: 8-subject second-cell position 5 => overall fail
+PASS: 8-subject second-cell position 6 => overall fail
+PASS: 8-subject second-cell position 7 => overall fail
+PASS: 8-subject second-cell position 8 => overall fail
+PASS: 8-subject fourth-cell position 1 => overall absent
+PASS: 8-subject fourth-cell position 2 => overall absent
+PASS: 8-subject fourth-cell position 3 => overall absent
+PASS: 8-subject fourth-cell position 4 => overall absent
+PASS: 8-subject fourth-cell position 5 => overall absent
+PASS: 8-subject fourth-cell position 6 => overall absent
+PASS: 8-subject fourth-cell position 7 => overall absent
+PASS: 8-subject fourth-cell position 8 => overall absent
+PASS: 8-subject priority: second=1, fourth=1
+PASS: 8-subject priority: second=1, fourth=2
+PASS: 8-subject priority: second=1, fourth=3
+PASS: 8-subject priority: second=1, fourth=4
+PASS: 8-subject priority: second=1, fourth=5
+PASS: 8-subject priority: second=1, fourth=6
+PASS: 8-subject priority: second=1, fourth=7
+PASS: 8-subject priority: second=1, fourth=8
+PASS: 8-subject priority: second=2, fourth=1
+PASS: 8-subject priority: second=2, fourth=2
+PASS: 8-subject priority: second=2, fourth=3
+PASS: 8-subject priority: second=2, fourth=4
+PASS: 8-subject priority: second=2, fourth=5
+PASS: 8-subject priority: second=2, fourth=6
+PASS: 8-subject priority: second=2, fourth=7
+PASS: 8-subject priority: second=2, fourth=8
+PASS: 8-subject priority: second=3, fourth=1
+PASS: 8-subject priority: second=3, fourth=2
+PASS: 8-subject priority: second=3, fourth=3
+PASS: 8-subject priority: second=3, fourth=4
+PASS: 8-subject priority: second=3, fourth=5
+PASS: 8-subject priority: second=3, fourth=6
+PASS: 8-subject priority: second=3, fourth=7
+PASS: 8-subject priority: second=3, fourth=8
+PASS: 8-subject priority: second=4, fourth=1
+PASS: 8-subject priority: second=4, fourth=2
+PASS: 8-subject priority: second=4, fourth=3
+PASS: 8-subject priority: second=4, fourth=4
+PASS: 8-subject priority: second=4, fourth=5
+PASS: 8-subject priority: second=4, fourth=6
+PASS: 8-subject priority: second=4, fourth=7
+PASS: 8-subject priority: second=4, fourth=8
+PASS: 8-subject priority: second=5, fourth=1
+PASS: 8-subject priority: second=5, fourth=2
+PASS: 8-subject priority: second=5, fourth=3
+PASS: 8-subject priority: second=5, fourth=4
+PASS: 8-subject priority: second=5, fourth=5
+PASS: 8-subject priority: second=5, fourth=6
+PASS: 8-subject priority: second=5, fourth=7
+PASS: 8-subject priority: second=5, fourth=8
+PASS: 8-subject priority: second=6, fourth=1
+PASS: 8-subject priority: second=6, fourth=2
+PASS: 8-subject priority: second=6, fourth=3
+PASS: 8-subject priority: second=6, fourth=4
+PASS: 8-subject priority: second=6, fourth=5
+PASS: 8-subject priority: second=6, fourth=6
+PASS: 8-subject priority: second=6, fourth=7
+PASS: 8-subject priority: second=6, fourth=8
+PASS: 8-subject priority: second=7, fourth=1
+PASS: 8-subject priority: second=7, fourth=2
+PASS: 8-subject priority: second=7, fourth=3
+PASS: 8-subject priority: second=7, fourth=4
+PASS: 8-subject priority: second=7, fourth=5
+PASS: 8-subject priority: second=7, fourth=6
+PASS: 8-subject priority: second=7, fourth=7
+PASS: 8-subject priority: second=7, fourth=8
+PASS: 8-subject priority: second=8, fourth=1
+PASS: 8-subject priority: second=8, fourth=2
+PASS: 8-subject priority: second=8, fourth=3
+PASS: 8-subject priority: second=8, fourth=4
+PASS: 8-subject priority: second=8, fourth=5
+PASS: 8-subject priority: second=8, fourth=6
+PASS: 8-subject priority: second=8, fourth=7
+PASS: 8-subject priority: second=8, fourth=8
+PASS: F second-cell ? at subject 1 => fail
+PASS: F fourth-cell ? at subject 1 => absent
+PASS: F second-cell ? at subject 2 => fail
+PASS: F fourth-cell ? at subject 2 => absent
+PASS: F second-cell ? at subject 3 => fail
+PASS: F fourth-cell ? at subject 3 => absent
+PASS: F second-cell ? at subject 4 => fail
+PASS: F fourth-cell ? at subject 4 => absent
+PASS: F second-cell ? at subject 5 => fail
+PASS: F fourth-cell ? at subject 5 => absent
+PASS: F second-cell ? at subject 6 => fail
+PASS: F fourth-cell ? at subject 6 => absent
+PASS: F second-cell ? at subject 7 => fail
+PASS: F fourth-cell ? at subject 7 => absent
+PASS: F second-cell ? at subject 8 => fail
+PASS: F fourth-cell ? at subject 8 => absent
+PASS: S/12 second-cell ? at subject 1 => fail
+PASS: S/12 fourth-cell ? at subject 1 => absent
+PASS: S/12 second-cell ? at subject 2 => fail
+PASS: S/12 fourth-cell ? at subject 2 => absent
+PASS: S/12 second-cell ? at subject 3 => fail
+PASS: S/12 fourth-cell ? at subject 3 => absent
+PASS: S/12 second-cell ? at subject 4 => fail
+PASS: S/12 fourth-cell ? at subject 4 => absent
+PASS: S/12 second-cell ? at subject 5 => fail
+PASS: S/12 fourth-cell ? at subject 5 => absent
+PASS: S/12 second-cell ? at subject 6 => fail
+PASS: S/12 fourth-cell ? at subject 6 => absent
+PASS: S/12 second-cell ? at subject 7 => fail
+PASS: S/12 fourth-cell ? at subject 7 => absent
+PASS: S/12 second-cell ? at subject 8 => fail
+PASS: S/12 fourth-cell ? at subject 8 => absent
+PASS: S/12 second-cell ? at subject 9 => fail
+PASS: S/12 fourth-cell ? at subject 9 => absent
+PASS: S/12 second-cell ? at subject 10 => fail
+PASS: S/12 fourth-cell ? at subject 10 => absent
+PASS: S/12 second-cell ? at subject 11 => fail
+PASS: S/12 fourth-cell ? at subject 11 => absent
+PASS: S/12 second-cell ? at subject 12 => fail
+PASS: S/12 fourth-cell ? at subject 12 => absent
+PASS: S/12 precedence second=0 fourth=0 => absent
+PASS: S/12 precedence second=0 fourth=1 => absent
+PASS: S/12 precedence second=0 fourth=2 => absent
+PASS: S/12 precedence second=0 fourth=3 => absent
+PASS: S/12 precedence second=0 fourth=4 => absent
+PASS: S/12 precedence second=0 fourth=5 => absent
+PASS: S/12 precedence second=0 fourth=6 => absent
+PASS: S/12 precedence second=0 fourth=7 => absent
+PASS: S/12 precedence second=0 fourth=8 => absent
+PASS: S/12 precedence second=0 fourth=9 => absent
+PASS: S/12 precedence second=0 fourth=10 => absent
+PASS: S/12 precedence second=0 fourth=11 => absent
+PASS: S/12 precedence second=1 fourth=0 => absent
+PASS: S/12 precedence second=1 fourth=1 => absent
+PASS: S/12 precedence second=1 fourth=2 => absent
+PASS: S/12 precedence second=1 fourth=3 => absent
+PASS: S/12 precedence second=1 fourth=4 => absent
+PASS: S/12 precedence second=1 fourth=5 => absent
+PASS: S/12 precedence second=1 fourth=6 => absent
+PASS: S/12 precedence second=1 fourth=7 => absent
+PASS: S/12 precedence second=1 fourth=8 => absent
+PASS: S/12 precedence second=1 fourth=9 => absent
+PASS: S/12 precedence second=1 fourth=10 => absent
+PASS: S/12 precedence second=1 fourth=11 => absent
+PASS: S/12 precedence second=2 fourth=0 => absent
+PASS: S/12 precedence second=2 fourth=1 => absent
+PASS: S/12 precedence second=2 fourth=2 => absent
+PASS: S/12 precedence second=2 fourth=3 => absent
+PASS: S/12 precedence second=2 fourth=4 => absent
+PASS: S/12 precedence second=2 fourth=5 => absent
+PASS: S/12 precedence second=2 fourth=6 => absent
+PASS: S/12 precedence second=2 fourth=7 => absent
+PASS: S/12 precedence second=2 fourth=8 => absent
+PASS: S/12 precedence second=2 fourth=9 => absent
+PASS: S/12 precedence second=2 fourth=10 => absent
+PASS: S/12 precedence second=2 fourth=11 => absent
+PASS: S/12 precedence second=3 fourth=0 => absent
+PASS: S/12 precedence second=3 fourth=1 => absent
+PASS: S/12 precedence second=3 fourth=2 => absent
+PASS: S/12 precedence second=3 fourth=3 => absent
+PASS: S/12 precedence second=3 fourth=4 => absent
+PASS: S/12 precedence second=3 fourth=5 => absent
+PASS: S/12 precedence second=3 fourth=6 => absent
+PASS: S/12 precedence second=3 fourth=7 => absent
+PASS: S/12 precedence second=3 fourth=8 => absent
+PASS: S/12 precedence second=3 fourth=9 => absent
+PASS: S/12 precedence second=3 fourth=10 => absent
+PASS: S/12 precedence second=3 fourth=11 => absent
+PASS: S/12 precedence second=4 fourth=0 => absent
+PASS: S/12 precedence second=4 fourth=1 => absent
+PASS: S/12 precedence second=4 fourth=2 => absent
+PASS: S/12 precedence second=4 fourth=3 => absent
+PASS: S/12 precedence second=4 fourth=4 => absent
+PASS: S/12 precedence second=4 fourth=5 => absent
+PASS: S/12 precedence second=4 fourth=6 => absent
+PASS: S/12 precedence second=4 fourth=7 => absent
+PASS: S/12 precedence second=4 fourth=8 => absent
+PASS: S/12 precedence second=4 fourth=9 => absent
+PASS: S/12 precedence second=4 fourth=10 => absent
+PASS: S/12 precedence second=4 fourth=11 => absent
+PASS: S/12 precedence second=5 fourth=0 => absent
+PASS: S/12 precedence second=5 fourth=1 => absent
+PASS: S/12 precedence second=5 fourth=2 => absent
+PASS: S/12 precedence second=5 fourth=3 => absent
+PASS: S/12 precedence second=5 fourth=4 => absent
+PASS: S/12 precedence second=5 fourth=5 => absent
+PASS: S/12 precedence second=5 fourth=6 => absent
+PASS: S/12 precedence second=5 fourth=7 => absent
+PASS: S/12 precedence second=5 fourth=8 => absent
+PASS: S/12 precedence second=5 fourth=9 => absent
+PASS: S/12 precedence second=5 fourth=10 => absent
+PASS: S/12 precedence second=5 fourth=11 => absent
+PASS: S/12 precedence second=6 fourth=0 => absent
+PASS: S/12 precedence second=6 fourth=1 => absent
+PASS: S/12 precedence second=6 fourth=2 => absent
+PASS: S/12 precedence second=6 fourth=3 => absent
+PASS: S/12 precedence second=6 fourth=4 => absent
+PASS: S/12 precedence second=6 fourth=5 => absent
+PASS: S/12 precedence second=6 fourth=6 => absent
+PASS: S/12 precedence second=6 fourth=7 => absent
+PASS: S/12 precedence second=6 fourth=8 => absent
+PASS: S/12 precedence second=6 fourth=9 => absent
+PASS: S/12 precedence second=6 fourth=10 => absent
+PASS: S/12 precedence second=6 fourth=11 => absent
+PASS: S/12 precedence second=7 fourth=0 => absent
+PASS: S/12 precedence second=7 fourth=1 => absent
+PASS: S/12 precedence second=7 fourth=2 => absent
+PASS: S/12 precedence second=7 fourth=3 => absent
+PASS: S/12 precedence second=7 fourth=4 => absent
+PASS: S/12 precedence second=7 fourth=5 => absent
+PASS: S/12 precedence second=7 fourth=6 => absent
+PASS: S/12 precedence second=7 fourth=7 => absent
+PASS: S/12 precedence second=7 fourth=8 => absent
+PASS: S/12 precedence second=7 fourth=9 => absent
+PASS: S/12 precedence second=7 fourth=10 => absent
+PASS: S/12 precedence second=7 fourth=11 => absent
+PASS: S/12 precedence second=8 fourth=0 => absent
+PASS: S/12 precedence second=8 fourth=1 => absent
+PASS: S/12 precedence second=8 fourth=2 => absent
+PASS: S/12 precedence second=8 fourth=3 => absent
+PASS: S/12 precedence second=8 fourth=4 => absent
+PASS: S/12 precedence second=8 fourth=5 => absent
+PASS: S/12 precedence second=8 fourth=6 => absent
+PASS: S/12 precedence second=8 fourth=7 => absent
+PASS: S/12 precedence second=8 fourth=8 => absent
+PASS: S/12 precedence second=8 fourth=9 => absent
+PASS: S/12 precedence second=8 fourth=10 => absent
+PASS: S/12 precedence second=8 fourth=11 => absent
+PASS: S/12 precedence second=9 fourth=0 => absent
+PASS: S/12 precedence second=9 fourth=1 => absent
+PASS: S/12 precedence second=9 fourth=2 => absent
+PASS: S/12 precedence second=9 fourth=3 => absent
+PASS: S/12 precedence second=9 fourth=4 => absent
+PASS: S/12 precedence second=9 fourth=5 => absent
+PASS: S/12 precedence second=9 fourth=6 => absent
+PASS: S/12 precedence second=9 fourth=7 => absent
+PASS: S/12 precedence second=9 fourth=8 => absent
+PASS: S/12 precedence second=9 fourth=9 => absent
+PASS: S/12 precedence second=9 fourth=10 => absent
+PASS: S/12 precedence second=9 fourth=11 => absent
+PASS: S/12 precedence second=10 fourth=0 => absent
+PASS: S/12 precedence second=10 fourth=1 => absent
+PASS: S/12 precedence second=10 fourth=2 => absent
+PASS: S/12 precedence second=10 fourth=3 => absent
+PASS: S/12 precedence second=10 fourth=4 => absent
+PASS: S/12 precedence second=10 fourth=5 => absent
+PASS: S/12 precedence second=10 fourth=6 => absent
+PASS: S/12 precedence second=10 fourth=7 => absent
+PASS: S/12 precedence second=10 fourth=8 => absent
+PASS: S/12 precedence second=10 fourth=9 => absent
+PASS: S/12 precedence second=10 fourth=10 => absent
+PASS: S/12 precedence second=10 fourth=11 => absent
+PASS: S/12 precedence second=11 fourth=0 => absent
+PASS: S/12 precedence second=11 fourth=1 => absent
+PASS: S/12 precedence second=11 fourth=2 => absent
+PASS: S/12 precedence second=11 fourth=3 => absent
+PASS: S/12 precedence second=11 fourth=4 => absent
+PASS: S/12 precedence second=11 fourth=5 => absent
+PASS: S/12 precedence second=11 fourth=6 => absent
+PASS: S/12 precedence second=11 fourth=7 => absent
+PASS: S/12 precedence second=11 fourth=8 => absent
+PASS: S/12 precedence second=11 fourth=9 => absent
+PASS: S/12 precedence second=11 fourth=10 => absent
+PASS: S/12 precedence second=11 fourth=11 => absent
+PASS: S/9 second-cell ? at subject 1 => fail
+PASS: S/9 fourth-cell ? at subject 1 => absent
+PASS: S/9 second-cell ? at subject 2 => fail
+PASS: S/9 fourth-cell ? at subject 2 => absent
+PASS: S/9 second-cell ? at subject 3 => fail
+PASS: S/9 fourth-cell ? at subject 3 => absent
+PASS: S/9 second-cell ? at subject 4 => fail
+PASS: S/9 fourth-cell ? at subject 4 => absent
+PASS: S/9 second-cell ? at subject 5 => fail
+PASS: S/9 fourth-cell ? at subject 5 => absent
+PASS: S/9 second-cell ? at subject 6 => fail
+PASS: S/9 fourth-cell ? at subject 6 => absent
+PASS: S/9 second-cell ? at subject 7 => fail
+PASS: S/9 fourth-cell ? at subject 7 => absent
+PASS: S/9 second-cell ? at subject 8 => fail
+PASS: S/9 fourth-cell ? at subject 8 => absent
+PASS: S/9 second-cell ? at subject 9 => fail
+PASS: S/9 fourth-cell ? at subject 9 => absent
+PASS: S/9 precedence second=0 fourth=0 => absent
+PASS: S/9 precedence second=0 fourth=1 => absent
+PASS: S/9 precedence second=0 fourth=2 => absent
+PASS: S/9 precedence second=0 fourth=3 => absent
+PASS: S/9 precedence second=0 fourth=4 => absent
+PASS: S/9 precedence second=0 fourth=5 => absent
+PASS: S/9 precedence second=0 fourth=6 => absent
+PASS: S/9 precedence second=0 fourth=7 => absent
+PASS: S/9 precedence second=0 fourth=8 => absent
+PASS: S/9 precedence second=1 fourth=0 => absent
+PASS: S/9 precedence second=1 fourth=1 => absent
+PASS: S/9 precedence second=1 fourth=2 => absent
+PASS: S/9 precedence second=1 fourth=3 => absent
+PASS: S/9 precedence second=1 fourth=4 => absent
+PASS: S/9 precedence second=1 fourth=5 => absent
+PASS: S/9 precedence second=1 fourth=6 => absent
+PASS: S/9 precedence second=1 fourth=7 => absent
+PASS: S/9 precedence second=1 fourth=8 => absent
+PASS: S/9 precedence second=2 fourth=0 => absent
+PASS: S/9 precedence second=2 fourth=1 => absent
+PASS: S/9 precedence second=2 fourth=2 => absent
+PASS: S/9 precedence second=2 fourth=3 => absent
+PASS: S/9 precedence second=2 fourth=4 => absent
+PASS: S/9 precedence second=2 fourth=5 => absent
+PASS: S/9 precedence second=2 fourth=6 => absent
+PASS: S/9 precedence second=2 fourth=7 => absent
+PASS: S/9 precedence second=2 fourth=8 => absent
+PASS: S/9 precedence second=3 fourth=0 => absent
+PASS: S/9 precedence second=3 fourth=1 => absent
+PASS: S/9 precedence second=3 fourth=2 => absent
+PASS: S/9 precedence second=3 fourth=3 => absent
+PASS: S/9 precedence second=3 fourth=4 => absent
+PASS: S/9 precedence second=3 fourth=5 => absent
+PASS: S/9 precedence second=3 fourth=6 => absent
+PASS: S/9 precedence second=3 fourth=7 => absent
+PASS: S/9 precedence second=3 fourth=8 => absent
+PASS: S/9 precedence second=4 fourth=0 => absent
+PASS: S/9 precedence second=4 fourth=1 => absent
+PASS: S/9 precedence second=4 fourth=2 => absent
+PASS: S/9 precedence second=4 fourth=3 => absent
+PASS: S/9 precedence second=4 fourth=4 => absent
+PASS: S/9 precedence second=4 fourth=5 => absent
+PASS: S/9 precedence second=4 fourth=6 => absent
+PASS: S/9 precedence second=4 fourth=7 => absent
+PASS: S/9 precedence second=4 fourth=8 => absent
+PASS: S/9 precedence second=5 fourth=0 => absent
+PASS: S/9 precedence second=5 fourth=1 => absent
+PASS: S/9 precedence second=5 fourth=2 => absent
+PASS: S/9 precedence second=5 fourth=3 => absent
+PASS: S/9 precedence second=5 fourth=4 => absent
+PASS: S/9 precedence second=5 fourth=5 => absent
+PASS: S/9 precedence second=5 fourth=6 => absent
+PASS: S/9 precedence second=5 fourth=7 => absent
+PASS: S/9 precedence second=5 fourth=8 => absent
+PASS: S/9 precedence second=6 fourth=0 => absent
+PASS: S/9 precedence second=6 fourth=1 => absent
+PASS: S/9 precedence second=6 fourth=2 => absent
+PASS: S/9 precedence second=6 fourth=3 => absent
+PASS: S/9 precedence second=6 fourth=4 => absent
+PASS: S/9 precedence second=6 fourth=5 => absent
+PASS: S/9 precedence second=6 fourth=6 => absent
+PASS: S/9 precedence second=6 fourth=7 => absent
+PASS: S/9 precedence second=6 fourth=8 => absent
+PASS: S/9 precedence second=7 fourth=0 => absent
+PASS: S/9 precedence second=7 fourth=1 => absent
+PASS: S/9 precedence second=7 fourth=2 => absent
+PASS: S/9 precedence second=7 fourth=3 => absent
+PASS: S/9 precedence second=7 fourth=4 => absent
+PASS: S/9 precedence second=7 fourth=5 => absent
+PASS: S/9 precedence second=7 fourth=6 => absent
+PASS: S/9 precedence second=7 fourth=7 => absent
+PASS: S/9 precedence second=7 fourth=8 => absent
+PASS: S/9 precedence second=8 fourth=0 => absent
+PASS: S/9 precedence second=8 fourth=1 => absent
+PASS: S/9 precedence second=8 fourth=2 => absent
+PASS: S/9 precedence second=8 fourth=3 => absent
+PASS: S/9 precedence second=8 fourth=4 => absent
+PASS: S/9 precedence second=8 fourth=5 => absent
+PASS: S/9 precedence second=8 fourth=6 => absent
+PASS: S/9 precedence second=8 fourth=7 => absent
+PASS: S/9 precedence second=8 fourth=8 => absent
+ALL 560 Kotlin smoke checks passed
