@@ -539,11 +539,47 @@ class MainActivity : Activity() {
     }
 
     private fun parseCell(text: String): Any? {
-        val value = text.trim()
-        if (value.isEmpty()) return null
-        if (GradeRules.isAbsenceMarker(value)) return value
-        return value.toDoubleOrNull() ?: value
+    val value = normalizeArabicDigits(text.trim())
+
+    if (value.isEmpty()) return null
+
+    if (GradeRules.isAbsenceMarker(value)) {
+        return value
     }
+
+    return value.toDoubleOrNull() ?: value
+}
+
+/**
+ * يحوّل الأرقام العربية والهندية إلى أرقام إنجليزية
+ * حتى يستطيع Kotlin تحليلها وحسابها بصورة صحيحة.
+ *
+ * أمثلة:
+ * ١٢٣  -> 123
+ * ٤٥٫٥ -> 45.5
+ * ١٢,٥ -> 12.5
+ */
+private fun normalizeArabicDigits(value: String): String {
+    val result = StringBuilder()
+
+    for (char in value) {
+        when (char) {
+            in '٠'..'٩' ->
+                result.append(('0'.code + (char.code - '٠'.code)).toChar())
+
+            in '۰'..'۹' ->
+                result.append(('0'.code + (char.code - '۰'.code)).toChar())
+
+            '٫' -> result.append('.')
+            '٬' -> Unit
+            '،' -> result.append('.')
+
+            else -> result.append(char)
+        }
+    }
+
+    return result.toString()
+}
 
     private fun formatNumber(value: Double): String =
         if (value % 1.0 == 0.0) value.toLong().toString() else value.toString()
